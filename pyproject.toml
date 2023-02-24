@@ -8,8 +8,10 @@ packages = [{include = "py_ansible_sandbox"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-ansible = "^7.2.0"
 
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+flake8 = "^6.0.0"
 
 [build-system]
 requires = ["poetry-core"]
